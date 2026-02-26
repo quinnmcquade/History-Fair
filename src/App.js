@@ -49,7 +49,7 @@ import {
   Link2,
   AlertCircle,
 } from "lucide-react";
-import PINModal from "../PINModal.jsx";
+import PINModal from "./PINModal.jsx";
 // Polyfill for process.env which is required by some Firebase internals
 if (typeof window !== "undefined" && !window.process) {
   window.process = { env: {} };
